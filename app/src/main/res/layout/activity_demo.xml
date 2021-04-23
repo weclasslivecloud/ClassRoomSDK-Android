@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_join_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进入教室" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="ClassID:" />
+
+        <EditText
+            android:id="@+id/roomid"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:maxLength="16"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="100100" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"
+            android:text="TeacherID:" />
+
+        <EditText
+            android:id="@+id/teacherid"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:maxLength="16"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="291" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="UserID:" />
+
+        <EditText
+            android:id="@+id/userid"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:maxLength="16"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="201701" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"
+            android:text="InstitutionID:" />
+
+        <EditText
+            android:id="@+id/institutionid"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:hint="institutionid"
+            android:maxLength="16"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="79" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="老师姓名:" />
+
+        <EditText
+            android:id="@+id/teacher_name"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:maxLength="16"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="老师" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"
+            android:text="学生姓名:" />
+
+        <EditText
+            android:id="@+id/student_name"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:maxLength="16"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="学生" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="CourseId:" />
+
+        <EditText
+            android:id="@+id/courseid"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:maxLength="16"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="72002" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="课程名称:" />
+
+        <EditText
+            android:id="@+id/coursetitle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:hint="courseid"
+            android:maxLength="16"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="测试课程" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课程类型:" />
+
+        <RadioGroup
+            android:id="@+id/class_type_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/class_type_three"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:checked="false"
+                android:gravity="center"
+                android:text="大班课"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/class_type_live"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="一对一"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/class_type_smallclass"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:checked="true"
+                android:text="小班课"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/class_type_groupclass"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:checked="true"
+                android:text="小组课"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="直播还是回放:" />
+
+        <RadioGroup
+            android:id="@+id/class_state_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="直播"
+                android:checked="true"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/class_state_over"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:text="回放"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课程状态:" />
+
+        <RadioGroup
+            android:id="@+id/class_status_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/class_status_before"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="课前"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/class_status_onging"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:checked="true"
+                android:text="课中"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/class_status_after"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:text="课后"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="UserCode:" />
+
+        <EditText
+            android:id="@+id/usercode"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:hint="userCode"
+            android:maxLines="1"
+            android:paddingLeft="5dp" />
+
+    </LinearLayout>
+</LinearLayout>
